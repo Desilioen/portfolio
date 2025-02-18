@@ -1,6 +1,6 @@
-ErrorDocument 404 /404.html
-
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+ErrorDocument 404 /404.html
+RewriteRule ^beranda$ index.html [L]
+RewriteRule ^sosial$ social.html [L]
+RewriteRule ^proyek$ project.html [L]
