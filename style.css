@@ -161,10 +161,10 @@ a {
 }
 
 :root {
-  --clr-1: #F1FAEE;
-  --clr-2: #A8DADC;
-  --clr-3: #457B9D;
-  --clr-4: #1D3557;
+  --clr-1: #01BCF4;
+  --clr-2: #F26810;
+  --clr-3: #FC0060;
+  --clr-4: #6F71FB;
 
   --blur: 1rem;
 }
