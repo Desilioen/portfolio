@@ -62,15 +62,6 @@ const translations = {
     pancakeLang: "Indonesio",
     noPage: "La página que buscas no está disponible. Esto es solo un blog, ¿para qué necesitaría subpáginas?"
   },
-  hi: {
-    workExperience: "Work Experience",
-    project: "Project",
-    findMe: "Find Me",
-    pancakeDesc: "Ek Discord app jo aapke community me virtual economy ka experience laane ke liye design kiya gaya hai",
-    position: "Creator (2024–Ab tak)",
-    pancakeLang: "Indonesian",
-    noPage: "Jo page dhundh rahe ho, woh yahan nahi milega. Bhai, yeh bas ek blog hai, subpages ka kya kaam?"
-    },
   pt: {
     workExperience: "Experiência de Trabalho",
     project: "Projeto",
