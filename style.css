@@ -1,0 +1,161 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    padding: 10px 0;
+    color: #E4E6EB;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.language-switcher {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.language-switcher:hover {
+    position: relative;
+}
+
+.hamburger-btn {
+    background: none;
+    border: none;
+    color: #E4E6EB;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    background-color: #1C1F2A;
+    border-radius: 4px;
+    padding: 5px;
+    outline: 1px solid #2C2F3A;
+    top: 100%;
+    right: 0;
+    min-width: 150px;
+}
+
+.lang-menu button {
+    background: none;
+    border: none;
+    color: #E4E6EB;
+    padding: 8px 10px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: 'Rubik', 'Ngayogyan', sans-serif;
+    border-radius: 3px;
+}
+
+.lang-menu button:hover {
+    background-color: #2C2F3A;
+}
+
+@font-face {
+    font-family: 'Ngayogyan';
+    src: url('../font/ngayogyan.ttf') format('truetype');
+}
+
+body {
+    background-color: #0D0F15;
+    color: #E4E6EB;
+    font-family: 'Rubik', 'Ngayogyan', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600x;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #C3C6D1;
+    display: block;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #1C1F2A;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+    outline: 1px solid #2C2F3A;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.card i {
+    font-size: 24px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C3C6D1;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #E4E6EB;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #A1A4B0;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #C3C6D1;
+    margin-top: 5px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card {
+        transition: none;
+    }
+}
